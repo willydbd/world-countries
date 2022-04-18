@@ -20,8 +20,5 @@ export default {
         CountryListItem,
         IonList,
     },
-    data() {
-        
-    },
 }
 </script>

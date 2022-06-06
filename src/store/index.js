@@ -10,7 +10,6 @@ const store = createStore({
         },
         country(state){
             return (name) => {
-                console.log(state.countries.find((country) => country.name.common === name))
                 return state.countries.find((country) => country.name.common === name);
             }
         }
